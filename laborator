@@ -1,0 +1,21 @@
+Converteste Far to Celsius
+var farenheit = prompt("Introduceti temperatura in Fr"); 
+var temp = (farenheit - 32) / 1.8;
+window.alert("Temperatura in grade Celsius este de:" + temp);
+
+Virsta
+const anCurent = 2017;
+var anNastere = prompt('Introduceti anul nasterii');
+var virsta = anCurent - anNastere;
+window.alert("Virsta dvs. este de:" + virsta + " ani.");
+
+Meniu
+const hamburger = 10;
+const cola = 5;
+const pizza = 15;
+var cantHamburger = prompt("Introduceti cantitate Hamburger: ") * hamburger;
+var cantCola = prompt("Introduceti cantitate Cola: ") * cola;
+var cantPizza = prompt("Introduceti cantitate Pizza: ") * pizza;
+var total = cantHamburger + cantCola + cantPizza;
+window.alert("Fiti buni si achitati: "+ total + " lei" );
+window.alert("Multumim ca ati cheltuit banii la noi");
